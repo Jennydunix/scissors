@@ -1,0 +1,24 @@
+.linkLists {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 25px;
+	a {
+		width: 250px;
+		height: 200px;
+		border: 1px solid black;
+		display: flex;
+        border-radius: 10px;
+		flex-direction: column;
+		justify-content: space-around;
+        text-decoration: none;
+        color: inherit;
+		h3 {
+			font-size: 1.3em;
+			text-align: center;
+		}
+		p {
+			text-align: center;
+		}
+	}
+}

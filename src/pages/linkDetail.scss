@@ -1,0 +1,19 @@
+.lbox {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+	span {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		button {
+			background-color: #0065fe;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 20px;
+            border: none;
+		}
+	}
+}

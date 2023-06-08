@@ -1,0 +1,90 @@
+.static {
+	background: #f9fbfd;
+	height: 220px;
+	margin-top:150px;
+	.boxs {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		padding: 62px 0px;
+		.text {
+			width: 400px;
+			height: 96px;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 48px;
+			span {
+				color: #005ae2;
+			}
+		}
+		.statics {
+			display: flex;
+			gap: 80px;
+			div:nth-child(1) {
+				h2 {
+					width: 44px;
+					height: 40px;
+					font-weight: 600;
+					font-size: 32px;
+					line-height: 40px;
+				}
+				p {
+					width: 88px;
+					height: 24px;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 24px;
+				}
+			}
+			div:nth-child(2) {
+				h2 {
+					width: 44px;
+					height: 40px;
+					font-weight: 600;
+					font-size: 32px;
+					line-height: 40px;
+				}
+				p {
+					width: 123px;
+					height: 52px;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 24px;
+				}
+			}
+			div:nth-child(3) {
+				h2 {
+					width: 44px;
+					height: 40px;
+					font-weight: 600;
+					font-size: 32px;
+					line-height: 40px;
+				}
+				p {
+					width: 143px;
+					height: 56px;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 24px;
+				}
+			}
+			div:nth-child(4) {
+				h2 {
+					width: 44px;
+					height: 40px;
+					font-weight: 600;
+					font-size: 32px;
+					line-height: 40px;
+				}
+				p {
+					width: 123px;
+					height: 24px;
+					font-weight: 500;
+					font-size: 16px;
+					line-height: 24px;
+				}
+			}
+		}
+	}
+}

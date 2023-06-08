@@ -1,0 +1,43 @@
+.faq {
+	height: max-content;
+    margin-bottom: 25px;
+	.container {
+		display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+		padding-top: 25px;
+		gap: 80px;
+		h2 {
+			font-weight: 700;
+			font-size: 40px;
+			width: 96px;
+			margin: 0 auto;
+		}
+		.faqs {
+			width: 790px;
+            padding-left: 100px;
+			.question {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				gap: 25px;
+                border-bottom: 1px solid #D6D6D6;
+                margin-bottom: 25px;
+                padding: 15px 0px;
+				.q {
+					display: flex;
+					justify-content: space-between;
+					font-weight: 500;
+					font-size: 20px;
+				}
+				.a {
+					width: 700px;
+					height: 63px;
+					font-weight: 500;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

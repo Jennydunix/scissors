@@ -1,0 +1,36 @@
+.quickStart {
+    height: 400px;
+	background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+	position: relative;
+	.qBox {
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -60%);
+		width: 807px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:60px;
+
+		h2 {
+			width: 806px;
+			height: 57px;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 48px;
+			text-align: center;
+			color: white;
+		}
+		button {
+			padding: 12px 24px;
+			width: 200px;
+			height: 48px;
+			background: #005ae2;
+			border-radius: 100px;
+            border: none;
+            color:white;
+		}
+	}
+}

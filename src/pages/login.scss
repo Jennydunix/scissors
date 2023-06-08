@@ -1,0 +1,48 @@
+.formContainer {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	form {
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%, -35%);
+		width: 30%;
+		h1 {
+			color: rgba(128, 128, 128, 0.542);
+			text-align: center;
+		}
+		.inputContainer {
+			display: flex;
+			flex-direction: column;
+			label {
+				padding: 15px 0px;
+			}
+			input {
+				padding: 10px;
+				outline: none;
+			}
+		}
+		button {
+			margin-top: 25px;
+			background-color: #0065fe;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 5px;
+			width: 100%;
+			border: none;
+			transition: all 0.5s ease-in-out;
+			&:hover {
+				background-color: #0066febe;
+			}
+		}
+
+		p {
+			margin-top: 15px;
+			a {
+				text-decoration: none;
+				color: #0065fe;
+			}
+		}
+	}
+}

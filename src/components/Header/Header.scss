@@ -1,0 +1,63 @@
+header {
+	width: 100%;
+	padding: 22px 0px;
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.logo {
+			display: flex;
+			align-items: center;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 32px;
+			color: #0065fe;
+			text-decoration: none;
+		}
+		ul {
+			display: flex;
+			align-items: center;
+			list-style: none;
+			gap: 30px;
+			li {
+				font-size: 16px;
+				&.active {
+					color: #0065fe;
+				}
+				
+			}
+			a{
+				color: inherit;
+				text-decoration: none;
+				&.action {
+					background-color: #0065fe;
+					color: white;
+					padding: 10px 20px;
+					border-radius: 20px;
+				}
+			}
+		}
+		.cuurentUserDetail {
+			display: flex;
+			gap: 20px;
+			align-items: center;
+			a {
+				color: inherit;
+				text-decoration: none;
+			}
+			.logout {
+				color: red;
+				padding: 10px 20px;
+				border-radius: 20px;
+				border: 1px solid red;
+				background-color: transparent;
+				&:hover{
+					background-color: red;
+					color: white;
+					
+				}
+			}
+		}
+	}
+}
