@@ -6,17 +6,11 @@ import axios from "axios";
 const Header = () => {
 	const ctx = useContext(AuthContext);
 	const navigate = useNavigate();
-	const logout = async () => {
+	const handlelogout = async () => {
 		try {
-			await axios.post(
-				"http://localhost:5000/auth/logout",
-				{},
-				{
-					withCredentials: true,
-				}
-			);
-			ctx.logout();
-			navigate("/auth/login");
+			await axios.post("http://localhost:5000/auth/logout");
+			ctx.logout()
+			navigate("/");
 		} catch (error) {
 			console.log(error);
 		}
@@ -52,7 +46,7 @@ const Header = () => {
 						<div className="cuurentUserDetail">
 							<p>{ctx.user.username}</p>
 							<Link to="/new">New Link</Link>
-							<button className="logout" onClick={logout}>
+							<button className="logout" onClick={handlelogout}>
 								Logout
 							</button>
 						</div>
